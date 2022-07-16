@@ -1,0 +1,191 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: $white !important;
+}
+
+.header {
+  border-bottom: 1px solid #d8d8d8;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .header-express {
+    font-weight: 800;
+  }
+  .header-come {
+    .columns {
+      span {
+        font-size: 12px;
+        color: #212222;
+        a {
+          color: #212222;
+        }
+      }
+    }
+  }
+  .insider-row {
+    & > tbody > tr > th {
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+  }
+}
+
+.discount-row {
+  .columns {
+    padding-top: 50px;
+  }
+}
+.cash-report-row {
+  p {
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 20px;
+  }
+  .blk-img {
+    max-width: 640px;
+  }
+}
+
+.act-fast {
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 40px;
+  .columns {
+    h5,
+    h3,
+    p {
+      padding-left: 20px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+
+  .act-text {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .act-img {
+    max-width: 540px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.points-row {
+  .columns {
+    text-align: center;
+    height: 150px;
+    .rewards-bar {
+      width: 250px;
+      padding-bottom: 40px;
+    }
+    .tbl-btn {
+      max-width: 200px;
+    }
+
+    h2,
+    p,
+    a {
+      text-align: center;
+    }
+    h2 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 23px;
+    }
+    .redeem {
+      font-weight: 700;
+      font-size: 15px;
+      padding-top: 60px;
+      color: #757575;
+    }
+  }
+  .points-tbl {
+    p {
+      font-size: 25px;
+    }
+  }
+  .influence-status-txt {
+    padding-bottom: 30.19999999999999px;
+  }
+  .black-btn {
+    max-width: 20px;
+    margin-top: 15px;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .white-btn {
+    max-width: 20px;
+    margin-top: 15px;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.express-row {
+  .express-row_btn {
+    img {
+      padding-top: 20px;
+    }
+  }
+}
+
+.social-row {
+  .columns {
+    img {
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: 45px;
+    }
+  }
+  .right-borders {
+    display: inline-block;
+    background-color: black;
+    background: black;
+    width: 2.5px;
+    height: 50px;
+  }
+}
+
+.download-now-row {
+  .columns {
+    img {
+      padding-top: 25px;
+      margin: 0px;
+    }
+  }
+}
+
+.footer-tiny-info {
+  .tiny-row {
+    .columns {
+      p {
+        font-size: 13px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
